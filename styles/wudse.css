@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:Wght@700&display=swap');
+
+body {
+    background-color: #252839;
+}
+#hed {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: h-animate;
+    animation-duration: 3s;
+    top: 0;
+}
+@keyframes h-animate {
+    from {text-shadow: 50px 50px coral; color: rgb(14, 63, 107);}
+}
+#hed-p {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+.list {
+    float: inline-start;
+    margin-left: 0px;
+}
+button {
+    background-color: rgb(14, 69, 180);
+    border-radius: 9px;
+    cursor: pointer;
+    border-color: black;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
